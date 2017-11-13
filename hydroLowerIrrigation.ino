@@ -49,8 +49,8 @@
 
 
 
-DA_DiscreteOutput B1R1_1A_XY_003 = DA_DiscreteOutput(11, HIGH); // return pump
-DA_DiscreteOutput B1R1_1A_XY_004 = DA_DiscreteOutput(10, HIGH); // condensate pump
+DA_DiscreteOutput B1R1_1A_XY_003 = DA_DiscreteOutput(11, LOW); // return pump
+DA_DiscreteOutput B1R1_1A_XY_004 = DA_DiscreteOutput(10, LOW); // condensate pump
 
 
 DA_AnalogInput B1R1_1A_LT_005 = DA_AnalogInput(A1, 0.0, 1023.); // min max
